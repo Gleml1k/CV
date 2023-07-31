@@ -1,0 +1,84 @@
+
+body {
+  font-family: "Roboto";
+  background-color: #EDEAD9;
+}
+
+.merch {
+  color: blue;
+}
+
+.container {
+  padding: 0 40px;
+  margin-left: 100px;
+   
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 25px 0;
+}
+.about{
+  font-size: 30px;
+  text-align: center;
+}
+  /* Свойства фотографии*/
+.photo {
+  border-radius: 100px;
+  /* Радиус скругления */
+  border: 3px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+}
+
+  /* Эффект наведения на картинку */
+.photo:hover {
+  border: 3px solid #FFD700;
+}
+
+td{
+  font-size: 120px;
+  text-align: center;
+  
+}
+table{
+  margin-left: 18%;
+
+}
+a{
+  text-decoration: none;
+}
+
+.turn1{
+  margin-left: 100%;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("better-vcr_0.ttf");
+}
+
+.centraL{
+  text-align: center;
+}
+
+.btn-click{
+  border: 3px solid grey;
+  border-radius: 10%;
+  font-size: 25px;
+
+}
+/* Что делать при наведении на ссылку */
+ a:hover {
+  color:darkred;
+}
+a::after {
+  color: blue;
+}
+
+
